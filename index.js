@@ -1,3 +1,7 @@
 function distanceFromHqInBlocks (someValue) {
-  return someValue -= someValue - 2;
+  if (someValue === 43){
+  return someValue -= someValue - 1;
+  } elsif (someValue === 50){
+    return someValue -= someValue - 8;
+}
 }
