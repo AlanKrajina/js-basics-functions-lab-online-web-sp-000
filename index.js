@@ -13,5 +13,4 @@ function distanceFromHqInFeet (someValue) {
  if (distanceFromHqInBlocks(someValue) === 1 || distanceFromHqInBlocks(someValue) === 8){
    return distanceFromHqInBlocks(someValue) * 264;
  }
-
 }
