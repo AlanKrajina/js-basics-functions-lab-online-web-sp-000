@@ -14,6 +14,8 @@ function distanceFromHqInFeet (someValue) {
  }
 }
 
-function distanceTravelledInFeet (someValue) {
-
+function distanceTravelledInFeet (someValue1,someValue2) {
+  if (someValue1 < someValue2){
+    return (someValue2 - someValue1)*264
+  }
 }
