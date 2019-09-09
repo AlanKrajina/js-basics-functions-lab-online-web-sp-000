@@ -1,3 +1,3 @@
 function distanceFromHqInBlocks (someValue) {
-  return someValue -= 2;
+  return someValue = someValue - 2;
 }
