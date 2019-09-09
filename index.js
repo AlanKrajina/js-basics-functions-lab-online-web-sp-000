@@ -26,5 +26,6 @@ function calculatesFarePrice(start, destination){
   let farePrice;
   if (destination > start){
     return farePrice = 0;
+  } else if (destination < start){
+
   }
-}
