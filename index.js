@@ -9,6 +9,9 @@ function distanceFromHqInBlocks (someValue) {
 }
 
 function distanceFromHqInFeet (someValue) {
-//  distanceFromHqInBlocks(someValue);
+  
+ if  distanceFromHqInBlocks(someValue) === 1{
+   return distanceFromHqInBlocks(someValue) * 264
+ }
 
 }
