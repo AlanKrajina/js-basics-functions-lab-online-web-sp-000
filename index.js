@@ -14,3 +14,10 @@ function distanceFromHqInFeet (someValue) {
    return distanceFromHqInBlocks(someValue) * 264;
  }
 }
+
+function distanceTravelledInFeet (someValue) {
+
+ if (distanceFromHqInBlocks(someValue) === 1 || distanceFromHqInBlocks(someValue) === 8){
+   return distanceFromHqInBlocks(someValue) * 264;
+ }
+}
