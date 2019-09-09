@@ -29,3 +29,4 @@ function calculatesFarePrice(start, destination){
   } else if (destination < start){
 
   }
+}
